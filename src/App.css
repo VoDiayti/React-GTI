@@ -1,0 +1,288 @@
+body {
+  max-width: 100%;
+}
+/* header */
+.row2{
+  padding-right: 150px;
+}
+.line1, .line2, .line3 {
+  width: 33px;
+  height: 3px;
+  margin: 5px;
+  transition: all .4s;
+  color: #4D7CFE;
+}
+.navbar{
+  background: #252631;
+}
+.change .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .line2 {
+  opacity: 0;
+}
+
+.change .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+.fullwidth_image {
+  background: url('images/bg.png');
+  background-repeat: no-repeat;
+  padding-top: 95px;
+  padding-bottom: 50%;
+  max-height: 650px;
+  margin-bottom: 15%;
+  background-size: cover;
+  background-position: center;
+}
+
+img.introoo{
+  position: relative;
+  max-width: 100%;
+  display: block;
+  height: auto;
+   
+}
+
+.introoo {
+  position: absolute;
+  left: 15%;
+  top: 50%;
+  z-index: 9;
+  width: 70%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.read {
+  text-align: center;
+}
+
+.btn-btn-light {
+  background: #F8FAFB;
+  color: #4D7CFE;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+
+}
+
+.navbar-cl{
+  color: #F8FAFB;
+  font-size: 20px;
+}
+
+div#navbarResponsive {
+  margin: -7px;
+}
+#imglogo {
+    margin-left: 100px;
+    display: inline-block;
+    float: none;
+    max-height: 54%;
+    margin-bottom: 0;
+    vertical-align: middle;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    /* -webkit-transform: translate3d(0,0,0); */
+}
+.abcd .heading-d h2{
+    font-size: 46px;
+    line-height: 55px;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 80px;
+}
+
+.abcd .btn-lead {
+    background: #FFBA00 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 6px #0000001A;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px 40px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 50px;
+   
+}
+
+.abcd a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+/* @media (min-width: 1200px) { 
+  .ddddddd {
+    display: block;
+    height: 800px;
+  }
+ } */
+
+ /* end header */
+
+/* .lead-heading {
+  margin-top: 50px;
+} */
+
+/* About */
+.underline {
+  width: 80px;
+  border-bottom: 3px solid #FFBA00;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.lead-about {
+  /* font-size: 35px;
+  text-align: center;
+  margin: 65px; */
+  color: #212529;
+  padding-top: 30px;
+  font-size: 25px;
+  line-height: 35px;
+  width: 66%;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.row .about-content {
+  padding: 15px 25px 15px 200px;
+}
+.row .about-content2 {
+  padding: 15px 190px 15px 45px;
+}
+.ab {
+  padding: 10px 10%;
+}
+
+/* end About */
+/* Why us */
+.wu {
+  padding: 10px 10%;
+}
+.page-section-heading {
+  color: #212529;
+}
+/* end Why us */
+
+/* services */
+.ser {
+  padding: 10px 10%;
+}
+.text-pd {
+  padding: 2px 50px 10px 50px;
+}
+.text-fn{
+  font-size: 35px;
+}
+/* services */
+.list li{
+  list-style: none;
+  font-size: 20px;
+
+}
+/* How we work */
+
+#Howwework .item-number div.number:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  left: 0;
+  border-bottom: 2px solid #FFBA00;
+}
+.text-light2{
+  color: #252631;
+}
+.number{
+  font-size: 45px;
+  color: #FFBA00;
+  padding-left: 60px;
+  position: relative;
+}
+.fn-text{
+  font-size: 30px;
+}
+
+.row-item2 {
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.row-item {
+  display: flex;
+  align-items: center;
+  padding-left: 7%;
+}
+@media (max-width: 1012px) {
+  .hww {
+    padding-left: 80px 50px !important;
+  }
+}
+@media (max-width: 576px) {
+  .row.row-item2.text-light2 {
+    padding: 5% !important;
+  }
+}
+
+.endhww {
+  color: #252631;
+  text-align: center;
+  padding: 80px 120px;
+}
+
+/* Team */
+.team-caption {
+  color: #252631;
+}
+
+.linkedin {
+  color : #eee;
+  background: #FFBA00;
+  font-size: 40px;
+  width: 100px;
+  
+}
+
+.linkedin:hover {
+  color: #eee;
+}
+
+.team-team ul li a {
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.team-list {
+  padding: 10px 5%;
+  padding-bottom: 90px;
+}
+
+.team_img{
+  text-align: center;
+}
+
+.team_item .team-team ul {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 15px;
+}
