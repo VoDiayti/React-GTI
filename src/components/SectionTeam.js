@@ -14,7 +14,7 @@ class SectionTeam extends Component {
       <section className="page-section text-white mb-0" id="Team">                
         <div className="container-fluid ">     
           <div class="row text-center  text-white">
-            <div class="col m-4 py-5">
+            <div class="col m-4 ">
               <h2 className="page-section-heading text-center text-uppercase mb-0 text-fn">our Team</h2>
                 <div class="underline mb-4"></div>
             </div>

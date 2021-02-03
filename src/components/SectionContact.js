@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class SectionContact extends Component {    
   render() {        
     return (            
-      <section className="page-section" id="Contact">                
+      <section className="page-section" id="Services">                
         <div className="container-fluid">     
         <div class="row text-center text-white">
           <div class="col m-4">

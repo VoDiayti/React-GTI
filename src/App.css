@@ -1,12 +1,24 @@
 body {
   max-width: 100%;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* header */
+.container-logo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 5px 5%;
+}
+.menu-nav {
+  color: #212529;
+}
 .row2{
-  padding-right: 150px;
+  padding-right: 80px;
 }
 .line1, .line2, .line3 {
-  width: 33px;
+  width: 35px;
   height: 3px;
   margin: 5px;
   transition: all .4s;
@@ -120,15 +132,51 @@ div#navbarResponsive {
   text-decoration: none;
 }
 
+img#imglogo {
+  max-width: 60%;
+}
 
-
-/* @media (min-width: 1200px) { 
-  .ddddddd {
-    display: block;
-    height: 800px;
+@media (max-width: 649px) { 
+  img#imglogo {
+    max-width: 350px;
+    padding-left: 90px;
+    margin-left: 0px;
   }
- } */
+ }
+ @media (max-width: 469px) { 
+  img#imglogo {
+    max-width: 250px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+ }
+ a.navbar-brand.js-scroll-trigger {
+  margin: 0px;
+}
+@media (max-width:1546px) {
+  img#imglogo{
+    margin: 0px;
+  }
+  
+}
+@media (max-width:1442px) {
+  .row2 {
+    padding-right: 0px;
+}
+}
+@media (max-width:1360px) {
+  button.btn-btn-light.font-weight-bold.mx-lg-1 {
+    max-width: 70%;
+    font-size: 13px;
+}
+}
 
+@media (max-width:1245px) {
+  a.nav-link.navbar-cl.py-2.px-lg-2.px-sm-2.js-scroll-trigger {
+    font-size: 18px;
+    padding-right: 0px;
+  }
+}
  /* end header */
 
 /* .lead-heading {
@@ -158,10 +206,10 @@ div#navbarResponsive {
   padding-bottom: 20px;
 }
 .row .about-content {
-  padding: 15px 25px 15px 200px;
+  padding: 15px 25px 15px 100px;
 }
 .row .about-content2 {
-  padding: 15px 190px 15px 45px;
+  padding: 15px 100px 15px 45px;
 }
 .ab {
   padding: 10px 10%;
@@ -169,6 +217,10 @@ div#navbarResponsive {
 
 /* end About */
 /* Why us */
+h2.page-section-heading.text-center.text-uppercase.mb-0.text-fn {
+  margin-top: 60px;
+}
+
 .wu {
   padding: 10px 10%;
 }
@@ -195,7 +247,7 @@ div#navbarResponsive {
 }
 /* How we work */
 
-#Howwework .item-number div.number:before {
+#HowWeWork .item-number div.number:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -254,7 +306,6 @@ div#navbarResponsive {
   background: #FFBA00;
   font-size: 40px;
   width: 100px;
-  
 }
 
 .linkedin:hover {
@@ -285,4 +336,63 @@ div#navbarResponsive {
   justify-content: center;
   padding-left: 0;
   padding-top: 15px;
+}
+/* new and insight */
+.new-video {
+  list-style: none;
+}
+
+/* contact */
+.contactus {
+  background: url('images/bg.png');
+  background-repeat: no-repeat;
+  padding-top: 45px;
+  max-height: 650px;
+  background-size: 105%;
+  background-position: center;
+}
+
+.mail {
+  font-size: 27px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: #FFBA00;
+}
+.mail:hover {
+  text-decoration: none;
+  /* transition: all .5s; */
+  color: #FFBA00;
+}
+.ctus {
+  text-align: center;
+  padding: 90px 10%;
+}
+.endfooter {
+  background: #252631;
+  text-align: center;
+  padding: 35px;
+  color: #eee;
+}
+.footer-logo {
+  max-width: 25%;
+  image-rendering: pixelated;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.text-footer {
+  color: #FFBA00;
+}
+
+.linke{
+  color : #eee;
+  background: #FFBA00;
+  font-size: 40px;
+  list-style: none;
+  border-radius: 15px;
+  padding: 0 10px
+}
+.linke:hover {
+  color : #eee;
+  background: #FFBA00;
 }

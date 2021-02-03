@@ -7,7 +7,7 @@ import HWW4 from '../images/HWW-04.png'
 class SectionHowwework extends Component {    
   render() {        
     return (            
-      <section className="page-section bg-light text-white mb-0" id="Howwework">                
+      <section className="page-section bg-light text-white mb-0" id="HowWeWork">                
         <div className="container-fluid hwwm">     
         <div class="row text-center text-white">
           <div class="col m-4">

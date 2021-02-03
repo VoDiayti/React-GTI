@@ -1,58 +1,33 @@
 import React, {Component}  from 'react';
+import footerimage from '../images/GTI_Logo_Light@2x.png'
 
 class SectionContact extends Component {
     render() {
         return (
-            <section className="page-section bg-success" id="contact">
-                <div className="container">
-                    {/* Contact Section Heading*/}
-                    <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Us</h2>
-                    {/* Icon Divider*/}
-                    <div className="divider-custom">
-                        <div className="divider-custom-line" />
-                        <div className="divider-custom-line" />
-                    </div>
-                    {/* Contact Section Form*/}
-                    <div className="row">
-                        <div className="col-lg-8 mx-auto">
-                            {/* To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.*/}
-                            <form id="contactForm" name="sentMessage" noValidate="novalidate">
-                                <div className="control-group">
-                                    <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                        <label>Name</label>
-                                        <input className="form-control" id="name" type="text" placeholder="Tên" required="required" data-validation-required-message="Please enter your name." />
-                                        <p className="help-block text-danger" />
-                                    </div>
-                                </div>
-                                <div className="control-group">
-                                    <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                        <label>Email Address</label>
-                                        <input className="form-control" id="email" type="email" placeholder="Địa chỉ email" required="required" data-validation-required-message="Please enter your email address." />
-                                        <p className="help-block text-danger" />
-                                    </div>
-                                </div>
-                                <div className="control-group">
-                                    <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                        <label>Phone Number</label>
-                                        <input className="form-control" id="phone" type="tel" placeholder="Số điện thoại liên hệ" required="required" data-validation-required-message="Please enter your phone number." />
-                                        <p className="help-block text-danger" />
-                                    </div>
-                                </div>
-                                <div className="control-group">
-                                    <div className="form-group floating-label-form-group controls mb-0 pb-2">
-                                        <label>Message</label>
-                                        <textarea className="form-control" id="message" rows={5} placeholder="Tin nhắn" required="required" data-validation-required-message="Please enter a message." defaultValue={""} />
-                                        <p className="help-block text-danger" />
-                                    </div>
-                                </div>
-                                <br />
-                                <div id="success" />
-                                <div className="form-group"><button className="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
-                            </form>
+           <footer id="Contact" className="footer-cu">
+               <div className="container-fluid p-0">
+                   <div className="contactus">
+                        <div className="ctus">
+                            <h1 className="page-section-heading text-center text-uppercase mb-0 text-fn text-light pb-5">contact us</h1>
+                            <h5 className="text-center text-light">To discuss a requirement or to find out more about Ground Truth Intelligence, please contact us directly at </h5>
+                            <a className="mail" href="mailto:info@gtintel.io">info@gtintel.io</a>
                         </div>
-                    </div>
-                </div>
-            </section>
+
+                        <div className="endfooter">
+                            <div className="footer-logo pb-3">
+                            <img src={footerimage} alt="image" />
+                            </div>
+                            <div class="">
+                                <p> Coppyright &copy; Ground Truth Holdings Limited 2019. All rights reserved.</p>
+                            </div>
+                            <h4 className="text-footer pb-2">Privacy Policy</h4>
+                            <div className="aaa">
+                		        <a class="linke" target="_blank" href="#"><i class="fab fa-linkedin-in " aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                   </div>
+               </div>
+           </footer>
         );
     }
 }

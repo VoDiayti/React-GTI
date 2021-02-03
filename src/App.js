@@ -7,6 +7,7 @@ import SectionContact from "./components/SectionContact";
 import Footer from "./components/Footer";
 import SectionHWW from "./components/SectionHWW";
 import SectionTeam from './components/SectionTeam';
+import SectionNew from './components/new';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <SectionContact/>
         <SectionHWW/>
         <SectionTeam/>
+        <SectionNew/>
         <Footer/>
     </div>
   );

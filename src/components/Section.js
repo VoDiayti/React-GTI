@@ -26,14 +26,14 @@ class Section extends Component {
                         </div>
                     </div>
                     <div className="row ab">
-                        <div className="about-content col-md-6">
-                            <p>Ground Truth provides an alternative to the legacy approach to Corporate Intelligence and Investigations. </p>
+                        <div className="about-content col-md-6 col-sm-6">
+                            <p className="pl-2">Ground Truth provides an alternative to the legacy approach to Corporate Intelligence and Investigations. </p>
                             <p>For any intelligence or investigations requirement, we match you rapidly and directly to the best-fit practitioner, on-the-ground, anywhere in the world. We call them Network Partners.</p>
                             <p>This can be for a sensitive, strategic project where you need world-class insight and expertise, or a simple document retrieval from a public registry.</p>
                             <p>Network Partners could be seasoned independent investigators in London or New York, or someone with the right local knowledge and contacts in Bogota, Brussels, Manila or Mumbai. </p>
                             <p>Our online platform makes it very quick and easy for you to reach the best local resource and get going. </p>
                         </div>
-                        <div className="about-content2 col-md-6">
+                        <div className="about-content2 col-md-6 col-sm-6">
                             <p>But don’t worry, the Ground Truth team is always there to help if you need us. Think of us as facilitators, helping you get the best from your Network Partner.</p>
                             <p>All the information goes through the platform, ensuring maximum data privacy and security. You can get detailed, formal reporting or raw, real-time intelligence. </p>
                             <p>We have over a thousand Network Partners — so no matter what your requirement is, and where in the world you need it from, we have the best-fit resource for you. The network is curated, invitation-only and all Network Partners are subject to thorough diligence, compliance and training procedures.</p>

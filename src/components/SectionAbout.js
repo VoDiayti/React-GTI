@@ -15,7 +15,7 @@ class SectionAbout extends Component {
             <section className="page-section bg-light text-white mb-0" id="WhyUs">
                 <div className="container-fluid">
                     <div class="row text-center text-white">
-                        <div class="col m-4">
+                        <div class="col m-4 ">
                             <h2 className="page-section-heading text-center text-uppercase mb-0 text-fn">Why Us</h2>
                             <div class="underline mb-4"></div>
                         </div>
